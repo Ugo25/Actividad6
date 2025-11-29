@@ -99,7 +99,7 @@ $conexion->close();
         <?php endif; ?>
 
         <div class="nav-links" style="margin-bottom: 20px;">
-            <a href="formulario.php">Volver al Formulario de Registro</a>
+            <a href="index.php">Volver al Formulario de Registro</a>
         </div>
         
         <form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>" method="get" class="search-form">
@@ -135,7 +135,7 @@ $conexion->close();
                                 <td class="hide-on-mobile"><?php echo htmlspecialchars($row['correo']); ?></td>
                                 <td><?php echo htmlspecialchars($row['carrera']); ?></td>
                                 <td>
-                                    <a href="javascript:void(0);" onclick="if(confirm('¿Está seguro de que desea eliminar a <?php echo htmlspecialchars($row['nombre']); ?>?')) { window.location.href = 'actividad6.php?delete_id=<?php echo $row['id']; ?>'; }" class="action-link">
+                                    <a href="javascript:void(0);" onclick="if(confirm('¿Está seguro de que desea eliminar a <?php echo htmlspecialchars($row['nombre']); ?>?')) { window.location.href = 'ver_registros.php?delete_id=<?php echo $row['id']; ?>'; }" class="action-link">
                                         Eliminar
                                     </a>
                                 </td>

@@ -62,7 +62,7 @@
 
     <br>
     <div style="text-align: center;">
-        <a href="actividad6.php">Ver registros guardados</a>
+        <a href="ver_registros.php">Ver registros guardados</a>
     </div>
 </div>
 

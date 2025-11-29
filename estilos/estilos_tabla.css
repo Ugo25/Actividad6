@@ -43,7 +43,7 @@ h2::after {
     border-radius: 2px;
 }
 
-/* --- ESTILOS DE MENSAJES --- */
+
 .message {
     padding: 20px;
     margin-bottom: 30px;
@@ -73,7 +73,6 @@ h2::after {
     to { opacity: 1; transform: translateY(0); }
 }
 
-/* --- NAVEGACIÓN Y BÚSQUEDA --- */
 .nav-links { text-align: left; margin-bottom: 20px; }
 
 .nav-links a {
@@ -180,7 +179,7 @@ tbody tr:hover {
     color: white;
 }
 
-/* --- VENTANA MODAL (ELIMINAR) --- */
+
 .modal-overlay {
     position: fixed;
     top: 0;
